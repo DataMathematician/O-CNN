@@ -54,7 +54,7 @@ void gen_test_pointcloud(vector<float>& pt, vector<float>& normal,
 int main(int argc, char* argv[]) {
   bool succ = cflags::ParseCmd(argc, argv);
   if (!succ) {
-    cflags::PrintHelpInfo("\nUsage: update_points.exe");
+    cflags::PrintHelpInfo("\nUsage: upgrade_points.exe");
     return 0;
   }
 
